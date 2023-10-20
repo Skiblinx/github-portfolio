@@ -2,8 +2,9 @@
 
 const Footer = () => {
 
-  const footerYear = new Date().getFullYear
-  const footerMonth = new Date().getMonth
+  const date = new Date();
+  const footerYear = date.getFullYear();
+  const footerMonth = date.toLocaleString('default', { month: 'short' });
 
   return (
     <footer className="footer p-10 bg-gray-700 text-primary-content footer-center">
