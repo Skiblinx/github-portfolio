@@ -11,9 +11,9 @@ export const fetchOptions = {
 }
 
 
-export const fetchUser = async (url, options) => {
+export const fetchUser = async (url) => {
   try {
-    const response = await axios(url, options)
+    const response = await axios(url)
     const data = await response.data
 
     return data
