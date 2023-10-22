@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const token = import.meta.env.VITE_APP_GITHUB_TOKEN || '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'
+const token = import.meta.env.VITE_APP_GITHUB_TOKEN || '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'
 
 
 export const fetchOptions = {

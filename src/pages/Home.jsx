@@ -1,8 +1,12 @@
-import React from 'react'
+import UserResult from '../component/users/UserResult'
+import SearchUsers from '../component/users/SearchUsers'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <SearchUsers />
+      <UserResult />
+    </>
   )
 }
 
