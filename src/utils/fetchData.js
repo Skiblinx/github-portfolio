@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const token = import.meta.env.VITE_APP_GITHUB_TOKEN || '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'
+const token = import.meta.env.VITE_APP_GITHUB_TOKEN || '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'
 
 
 

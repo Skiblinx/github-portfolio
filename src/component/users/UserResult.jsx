@@ -1,5 +1,5 @@
 import { useContext, useState } from 'react'
-import UserItem from './userItem'
+import UserResultChild from './UserResultChild'
 import Loader from '../layouts/Loader'
 import GithubContext from "../../context/github/GithubContext"
 import MyUser from './MyUser'
@@ -34,7 +34,7 @@ const UserResult = () => {
 
 
           {(users.length != 0 ? currentUsers.map(user => (
-            <UserItem key={user.id} user={user} />
+            <UserResultChild key={user.id} user={user} />
           )) : (<MyUser />))}
 
         </div>
