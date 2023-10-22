@@ -33,7 +33,7 @@ export const GithubProvider = ({ children }) => {
 
     setLoading(true)
 
-    const myData = await fetchUser(`https://api.github.com/user`, fetchOptions)
+    const myData = await fetchUser(`https://api.github.com/users/Skiblinx`, fetchOptions)
 
     setMyUser(myData)
 
