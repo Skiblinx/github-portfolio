@@ -12,7 +12,7 @@ export const GithubProvider = ({ children }) => {
   const [repos, setRepos] = useState([])
   const [loading, setLoading] = useState(false)
 
-  // Get users
+  // Search users
   const fetchUserData = async (text) => {
 
     setLoading(true)
@@ -75,6 +75,7 @@ export const GithubProvider = ({ children }) => {
 
   const handleClear = () => {
     setUsers([])
+
   }
 
   return <GithubContext.Provider value={{
