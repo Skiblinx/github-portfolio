@@ -12,7 +12,7 @@ export const fetchOptions = {
 
 export const fetchUser = async (url) => {
   try {
-    const response = await axios(url)
+    const response = await axios(url, fetchOptions)
     const data = await response.data
 
     return data

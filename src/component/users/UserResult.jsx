@@ -25,7 +25,6 @@ const UserResult = () => {
 
 
 
-
   if (!loading) {
 
     return (
