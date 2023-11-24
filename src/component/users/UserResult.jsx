@@ -34,7 +34,9 @@ const UserResult = () => {
 
           {(users.length != 0 ? currentUsers.map(user => (
             <UserResultChild key={user.id} user={user} />
-          )) : (<MyUser />))}
+          )) :
+            (<div>No users available</div>)
+          )}
 
         </div>
 
